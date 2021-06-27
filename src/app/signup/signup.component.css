@@ -1,0 +1,43 @@
+
+.form2{
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    background-color:rgba(90,145,140,255);
+    color: black;
+    text-align: center;
+ }
+ 
+h3{
+    padding-top:7rem;
+    margin-left: 7rem;
+    font-size: 2rem;
+    font-style: oblique;
+}
+button{
+    margin-top: 1rem;
+    margin-bottom: 8rem; 
+    }
+.button{
+    margin-left: 5rem;
+}
+
+
+
+@media (max-width: 576px) {
+    .form2{
+        text-align: left;
+     }
+
+     .btn1{
+        margin-left: 0rem;
+        }
+
+    h3{
+        margin-left: 4rem;
+        font-size: 1.5rem;
+        }
+    .button{
+        margin-left: 5rem;
+        } 
+ }

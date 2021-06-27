@@ -1,0 +1,21 @@
+<div>
+
+<img class=" image" src="assets/image/wallpaper.jpg" alt="" >
+<div class="centered" >Enjoy Your Journey</div>
+
+
+ <div class="form1">
+  <mat-form-field appearance="fill"  >
+    <mat-label for="email" ></mat-label>
+    <input  type="text" name="email" placeholder="Email" [(ngModel)]="email">
+  </mat-form-field>
+
+  <mat-form-field appearance="fill"  >
+    <mat-label for="password" ></mat-label>
+    <input  type="password" name="password" placeholder="password" [(ngModel)]="password">
+  </mat-form-field>
+    <button mat-raised-button class="btn1" (click)="login()" routerLink='/home'>Login</button>
+    <button  mat-raised-button class="btn2" routerLink='/signup'>SignUp</button>
+ 
+ </div>
+</div>

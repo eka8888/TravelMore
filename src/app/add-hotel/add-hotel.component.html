@@ -1,0 +1,39 @@
+<div>
+    <h3>Add New Hotel</h3>
+    <form (ngSubmit)="onSubmit()" #f="ngForm">
+        <mat-form-field appearance="fill" >
+            <mat-label for="inputImage"></mat-label>
+            <input type="text" class="form-control" id="inputImage" name="inputImage" placeholder="Input Image Url" [(ngModel)]="product.imageUrl"><!-- ngmodel-თ მივააეთებ productTan-->
+       </mat-form-field>
+    
+        <br>
+       <mat-form-field appearance="fill" >
+            <mat-label for="inputName"></mat-label>
+            <input type="text" class="form-control" id="inputName" name="inputName" placeholder="Input Hotel Name" [(ngModel)]="product.name"><!-- ngmodel-თ მივააეთებ productTan-->
+        </mat-form-field>
+        
+        <br>
+        <mat-form-field appearance="fill" >
+            <mat-label for="inputStar"></mat-label>
+            <input type="text" class="form-control" id="inputStar" name="inputStar" placeholder="Input Star Number" [(ngModel)]="product.star"><!-- ngmodel-თ მივააეთებ productTan-->
+        </mat-form-field>
+        <br>
+        <mat-form-field appearance="fill" >
+            <mat-label for="inputDate"></mat-label>
+            <input type="number" class="form-control" id="inputDate" name="inputDate" placeholder="Input Date" [(ngModel)]="product.date"><!-- ngmodel-თ მივააეთებ productTan-->
+        </mat-form-field>
+        <br>
+        <mat-form-field appearance="fill">
+            <mat-label for="inputAddress"></mat-label>
+            <input type="text" class="form-control" id="inputAddress" name="inputAddress" placeholder="Input address" [(ngModel)]="product.address"><!-- ngmodel-თ მივააეთებ productTan-->
+        </mat-form-field>
+        <br>
+        <mat-form-field appearance="fill">
+            <mat-label for="inputAdition"></mat-label>
+            <input type="text" class="form-control" id="inputAdition" name="inputAdition" placeholder="Input Adittion Information" [(ngModel)]="product.adition"><!-- ngmodel-თ მივააეთებ productTan-->
+        </mat-form-field>
+        <br>
+
+        <button type="submit">Submit</button>
+    </form>
+</div>

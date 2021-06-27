@@ -1,0 +1,38 @@
+
+<div class="row">
+<div class="column">
+<mat-card class="column1">
+ <ul *ngFor="let i of productss" class="card" >
+    <li><img mat-card-image src="{{i.imageUrl}}" style="width: 300px; height: 300px;"></li>
+    <li><mat-card-title> {{i.name}}</mat-card-title></li>
+    <li><mat-card-subtitle>{{i.star}}</mat-card-subtitle></li>
+    <li><mat-card-subtitle> {{i.date}}</mat-card-subtitle></li>
+    <li><button mat-raised-button (click)="selectProduct(i)" >More Information</button></li> 
+  </ul> 
+</mat-card>
+
+<mat-card class="column1">
+    <ul *ngFor="let j of products" class="card" >
+       <li><img mat-card-image src="{{j.imageUrl}}" style="width: 300px; height: 300px;"></li>
+       <li><mat-card-title> {{j.name}}</mat-card-title></li>
+       <li><mat-card-subtitle>{{j.star}}</mat-card-subtitle></li>
+       <li><mat-card-subtitle> {{j.date}}</mat-card-subtitle></li>
+       <li><button mat-raised-button (click)="selectProduct(j)" >More Information</button></li> 
+     </ul>
+</mat-card>
+</div>
+
+
+    <div *ngIf="selectedProduct" class="column2" id="detail">
+        <h3>You Selected: {{selectedProduct.name}}</h3>
+            <p>Hotel Name:{{ selectedProduct.name }}</p>
+            <p>Star Number:{{ selectedProduct.star }}</p>
+            <p>Address:{{ selectedProduct.address }}</p>
+            <p>Detail Information:</p>
+            <textarea rows="5" cols="30">{{ selectedProduct.adition }}</textarea>
+    </div>
+</div>
+
+
+
+

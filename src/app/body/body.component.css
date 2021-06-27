@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Montserrat:wght@600&display=swap');
+.image{
+  height: 80vh;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.centered {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-family: 'Lobster', cursive;
+    font-size: 4.5rem;
+  }
+  .form1 {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    position: absolute;
+    top: 85%;
+    right: 50%;
+    transform: translate(50%, -50%);
+    margin: 20px;
+    padding: 16px;
+    background-color: white;
+  }
+  .btn1{
+    background-color:rgba(194,177,132,255);
+  }
+  .btn2{
+    background-color:rgb(68, 117, 250);
+  }
+
+
+
+  /*responsive*/
+  @media (max-width: 1200px) {
+   .centered{
+    top: 20%;
+    left: 50%;
+    font-size: 3.5rem;
+   }
+   .form1 {
+    display: flex;
+    flex-flow: row wrap;
+    width: 25rem;
+   }
+}
+
+@media (max-width: 992px) {
+  .centered{
+    top: 20%;
+    left: 50%;
+    font-size: 3rem;
+   }
+   .form1 {
+    display: flex;
+    flex-flow: row wrap;
+    width: 25rem;
+   }
+
+}
+@media (max-width: 768px) {
+  .centered{
+    top: 20%;
+    left: 50%;
+    font-size: 2rem;
+   }
+   .form1 {
+    display: flex;
+    flex-flow: row wrap;
+    width: 25rem;
+   }
+
+}
+
+@media (max-width: 576px) {
+  .centered{
+    top: 20%;
+    left: 50%;
+    font-size: 1.5rem;
+   }
+   .form1 {
+    display: flex;
+    flex-flow: row wrap;
+    width: 15rem;
+   }
+}

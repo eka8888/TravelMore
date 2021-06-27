@@ -1,0 +1,32 @@
+
+<div class="form2">
+  <h3>Sign Up For Free</h3>
+    <mat-form-field appearance="fill" >
+     <mat-label for="name"></mat-label>
+     <input  type="text" name="name" placeholder="First Name" [(ngModel)]="name" style="width: 17rem;">
+    </mat-form-field> 
+
+<br>
+    <mat-form-field appearance="fill" form-control >
+     <mat-label for="surname"></mat-label>
+     <input  type="text" name="surname" placeholder="Last Name" [(ngModel)]="surname" style="width: 17rem;" >
+    </mat-form-field>   
+<br>
+
+    <mat-form-field appearance="fill" >
+     <mat-label for="email"></mat-label>
+     <input  type="text" name="email" placeholder="Email Address" [(ngModel)]="email" style="width: 17rem;">
+    </mat-form-field>
+<br>
+
+    <mat-form-field appearance="fill" > 
+     <mat-label for="password"></mat-label>
+     <input  type="password" name="password" placeholder="Set A Password" [(ngModel)]="password" style="width: 17rem;">
+    </mat-form-field>   
+<br>
+<div class="button">
+      <button  mat-raised-button class="btn1" (click)="signup()" routerLink='/body' >SignUp</button>
+      <button  mat-raised-button class="btn2" routerLink='/home' >Login</button>
+</div> 
+
+</div>

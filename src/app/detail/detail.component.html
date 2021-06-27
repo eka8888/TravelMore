@@ -1,0 +1,23 @@
+
+       
+        <div *ngIf="selectedProduct" class="detail">
+                <h3>You Selected: {{selectedProduct.name}}</h3>
+                <table style="width: 100%;">
+                    <thead>
+                       <tr>
+                           <th>Hotel Name</th>
+                           <th>Star Number</th>
+                           <th>Address</th>
+                           <th>Detail Information</th>
+                      </tr>
+                  </thead>
+                  <tbody>
+                    <td>{{ selectedProduct.name }}</td>
+                    <td>{{ selectedProduct.star }}</td>
+                    <td>{{ selectedProduct.address }}</td>
+                    <td>{{ selectedProduct.adition }}</td>   
+                  </tbody>
+        
+                </table>
+              
+                </div>

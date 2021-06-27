@@ -1,0 +1,16 @@
+
+.footer {
+    
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(238, 232, 224);;
+    color: black;
+    text-align: center;
+ }
+
+
+i{
+    padding: 0.5rem;
+    margin-top: 7rem;
+}

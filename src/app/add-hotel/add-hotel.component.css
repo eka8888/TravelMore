@@ -1,0 +1,135 @@
+*{
+    background-color:rgba(90,145,140,255);
+    margin: 0;
+    padding: 0;
+}
+h3{
+    padding-top: 2rem;
+    margin-left: 39rem;
+    font-size: 2rem;
+    font-style: oblique;
+}
+
+
+input{
+    margin-left: 36rem;
+    width: 20rem;
+    border-radius: 0.4rem;
+    height: 1.8rem;
+    border-color: darkgrey;
+    
+    }
+
+button{
+        margin-top: 1rem;
+        margin-left: 42rem;
+        width:8rem;
+        height: 2.6rem;
+        margin-bottom: 8rem;
+        background-color: rgb(68, 117, 250);
+        border-radius: 0.5rem;
+        
+    }
+
+@media (max-width: 1200px) {
+    h3{
+        margin-left: 33rem;
+        font-size: 2rem;
+    }
+    input{
+        margin-left: 30rem;
+        width: 20rem;
+        border-radius: 0.4rem;
+        height: 1.8rem;  
+        }
+    
+    button{
+            margin-top: 1rem;
+            margin-left: 36rem;
+            width:8rem;
+            height: 2.6rem;
+            margin-bottom: 8rem;
+        }  
+}
+
+@media (max-width: 1200px) {
+    h3{
+        margin-left: 33rem;
+        font-size: 2rem;
+    }
+    input{
+        margin-left: 30rem;
+        width: 20rem;
+        border-radius: 0.4rem;
+        height: 1.8rem;  
+        }
+    
+    button{
+            margin-top: 1rem;
+            margin-left: 36rem;
+            width:8rem;
+            height: 2.6rem;
+            margin-bottom: 8rem;
+        }  
+}
+
+@media (max-width: 992px) {
+    h3{
+        margin-left: 25rem;
+        font-size: 2rem;
+    }
+    input{
+        margin-left: 23rem;
+        width: 18rem;
+        border-radius: 0.4rem;
+        height: 1.8rem;  
+        }
+    button{
+            margin-top: 1rem;
+            margin-left: 25rem;
+            width:8rem;
+            height: 2.6rem;
+            margin-bottom: 8rem;
+        }  
+}
+
+@media (max-width: 768px) {
+    h3{
+        margin-left: 18rem;
+        font-size: 2rem;
+    }
+    input{
+        margin-left: 14rem;
+        width: 18rem;
+        border-radius: 0.4rem;
+        height: 1.8rem;  
+        }
+    button{
+            margin-top: 1rem;
+            margin-left: 18rem;
+            width:8rem;
+            height: 2.6rem;
+            margin-bottom: 8rem;
+        }  
+}
+
+@media (max-width: 576px) {
+   
+    h3{
+        margin-left: 6rem;
+        font-size: 1rem;
+    }
+    input{
+        margin-left: 2rem;
+        width: 15rem;
+        border-radius: 0.4rem;
+        height: 1.8rem;  
+        }
+    button{
+            margin-top: 1rem;
+            margin-left: 6rem;
+            width:6rem;
+            height: 2.6rem;
+            margin-bottom: 8rem;
+        }  
+}

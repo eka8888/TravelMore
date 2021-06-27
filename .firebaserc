@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "travel-92d03": {
+      "hosting": {
+        "travell": [
+          "travel-92d03"
+        ]
+      }
+    }
+  }
+}
