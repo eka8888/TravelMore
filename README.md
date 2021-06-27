@@ -9,6 +9,7 @@
 -მომხმარებლებისთვის 
 
 #### აპლიკაციის საწყის გვერდზე, მოცემული გვაქვს რეგისტრაცია, ავტორიზაციის პანელი.
+ავტორიზაციის გავლის შემთხვევაში გადავდივართ ავტორიზაციის გასავლელ გვერდზე.
 ![](1.png)
 ![](![1.png)
 
@@ -30,7 +31,7 @@
 
 ### პროექტში გამოყენებული თულებია:
 
-[](https://web-fonts.ge)
-[](https://fontawesome.com)
-[](angular 10)
-[](angular/material @12.1.0)
+[web-fonts](https://web-fonts.ge)
+[fontawesome](https://fontawesome.com)
+[angular 10](https://angular.io/docs)
+[angular/material @12.1.0]( https://material.angular.io/)
