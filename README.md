@@ -31,7 +31,10 @@
 
 ### პროექტში გამოყენებული თულებია:
 
-[web-fonts](https://web-fonts.ge)
-[fontawesome](https://fontawesome.com)
-[angular 10](https://angular.io/docs)
+[web-fonts](https://web-fonts.ge),
+
+[fontawesome](https://fontawesome.com),
+
+[angular 10](https://angular.io/docs),
+
 [angular/material @12.1.0]( https://material.angular.io/)
